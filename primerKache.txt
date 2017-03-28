@@ -1,0 +1,22 @@
+negu@negu-M68MT-S2:~/memcache$ valgrind --tool=callgrind ./m
+==2628== Callgrind, a call-graph generating cache profiler
+==2628== Copyright (C) 2002-2015, and GNU GPL'd, by Josef Weidendorfer et al.
+==2628== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==2628== Command: ./m
+==2628== 
+==2628== For interactive control, run 'callgrind_control -h'.
+4 7 
+8 6 
+_______________________________
+4 6 
+7 3 
+_______________________________
+65 45 
+74 66 
+_______________________________
+==2628== 
+==2628== Events    : Ir
+==2628== Collected : 2192011
+==2628== 
+==2628== I   refs:      2,192,011
+
